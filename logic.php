@@ -8,16 +8,13 @@
  */
 date_default_timezone_set('America/New_York');
 $t=date('H:i:s');
-if ($t > 9 and $t < 18)
+if ($t > 6 and $t < 18)
 {
-    echo "Time greater than 09:00";
     $background_color = "blue";
 }
 else
 {
-    echo "Time less than 06:00";
     $background_color = "green";
-
 }
 
 
